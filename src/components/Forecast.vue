@@ -2,7 +2,7 @@
 import { onMounted } from "vue";
 
 onMounted(() => {
-  new window.XSheet("#demo", {
+  window.xsheet = new window.XSheet("#demo", {
     workConfig: {
       body: {
         sheets: [window["forecast"]],

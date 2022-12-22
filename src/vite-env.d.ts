@@ -2,6 +2,7 @@
 export {};
 declare global {
   interface Window {
+    xsheet: any;
     XSheet: any;
     forecast: any;
   }
